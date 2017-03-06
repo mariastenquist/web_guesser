@@ -1,11 +1,17 @@
 <html>
-  <head></head>
+  <head>
+	  <style>
+	  		body {
+	  			background: <%= color %>;
+	  		}
+	  		</style>
+  		</head>
   <body>
     <p>
-      <%= message %>
+      <%= message %> 
     </p>
     <form>
-  		<input type='text' name='guess' placeholder="insert a number!" />
+  		<input type='text' name='guess' placeholder="insert number!" />
   		<input type='submit' value='Guess?' />
 		</form>
   </body>
